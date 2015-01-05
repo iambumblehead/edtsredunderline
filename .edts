@@ -2,3 +2,4 @@
 :node-sname "sedtsredunderline"
 :lib-dirs '("src" "deps")
 :otp-path "/usr/local/bin/"
+:dialyzer-plt ".edtsredunderline.plt"

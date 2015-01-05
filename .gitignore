@@ -5,3 +5,4 @@ deps/**
 doc/**
 .rebar
 .eunit
+.edtsredunderline.plt
