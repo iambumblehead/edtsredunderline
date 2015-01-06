@@ -35,7 +35,7 @@ error in process filter: Wrong type argument: listp, "{dialyzer_error,[78,111,11
 ```
 
 -------------------------
-# uuid:get_v4_urandom
+# <a id="uuid"></a>uuid:get_v4_urandom
 
 use these source files to demonstrate the predictable urandom (bug?) in uuid:get_v4_urandom.
 
