@@ -50,10 +50,12 @@ $ rebar eunit
 The result:
  for example, uuid:get_v4_urandom()  _always_ returns these results the first four times it is called:
 
- info {"`01056c26-74c1-49f9-9c40-5162c8c7c1aa`",
-       "`3bc859b2-3174-4b3c-986a-52a95f8175f7`",
-       "`50c84cda-e011-49d3-889a-0b2ad8206e6c`",
-       "`774129ae-db15-431e-9ded-fbfb924b33b2`"}
+```
+ info {"01056c26-74c1-49f9-9c40-5162c8c7c1aa",
+       "3bc859b2-3174-4b3c-986a-52a95f8175f7",
+       "50c84cda-e011-49d3-889a-0b2ad8206e6c",
+       "774129ae-db15-431e-9ded-fbfb924b33b2"}
+```
 
 The expected result:
  uuid:get_v4_urandom() should return a random unique number
