@@ -3,6 +3,15 @@
 
 -export([redunderline/0]).
 -export([uuidtest/0]).
+-export([start/0]).
+-export([stop/0]).
+
+start() ->
+    application:load(quickrand),
+    quickrand:seed().    
+
+stop() ->
+    ok.
 
 redunderline() ->
     bcrypt:start(),
