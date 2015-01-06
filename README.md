@@ -13,6 +13,7 @@ $ rebar compile
 Then open edtsredunderline.erl with emacs. Add whitespace and save the file. See red underline below bcrypt and childmaps.
 
 -------------------------
+# edts dialyzer
 
 build a plt file with this command:
 ```
@@ -34,6 +35,8 @@ error in process filter: Wrong type argument: listp, "{dialyzer_error,[78,111,11
 ```
 
 -------------------------
+# uuid:get_v4_urandom
+
 use these source files to demonstrate the predictable urandom (bug?) in uuid:get_v4_urandom.
 
 ```
